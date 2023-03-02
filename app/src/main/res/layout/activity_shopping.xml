@@ -9,6 +9,7 @@
     <androidx.recyclerview.widget.RecyclerView
         android:layout_width="match_parent"
         android:id="@+id/product_list"
+        app:layoutManager="androidx.recyclerview.widget.StaggeredGridLayoutManager"
         android:layout_height="match_parent"
         tools:listitem="@layout/product_item"/>
 </androidx.constraintlayout.widget.ConstraintLayout>
