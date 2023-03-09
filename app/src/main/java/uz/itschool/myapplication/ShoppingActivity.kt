@@ -1,16 +1,28 @@
 package uz.itschool.myapplication
 
+import android.content.Intent
 import android.graphics.Color
 import android.os.Bundle
+import android.view.View
+import android.widget.AdapterView
+import android.widget.ArrayAdapter
+import android.widget.Spinner
+import android.widget.Toast
 import androidx.annotation.ColorLong
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.content.ContentProviderCompat.requireContext
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.StaggeredGridLayoutManager
 import uz.itschool.myapplication.databinding.ActivityShoppingBinding
+import java.util.*
+import kotlin.system.exitProcess
 
 
 class ShoppingActivity : AppCompatActivity() {
+    lateinit var spinner: Spinner
+    lateinit var locale: Locale
+    private var currentLanguage = "en"
+    private var currentLang: String? = null
     override fun onCreate(savedInstanceState: Bundle?) {
         var binding= ActivityShoppingBinding.inflate(layoutInflater)
         super.onCreate(savedInstanceState)
@@ -40,5 +52,56 @@ class ShoppingActivity : AppCompatActivity() {
         val layoutManager =
             LinearLayoutManager(this, LinearLayoutManager.HORIZONTAL, false)
         binding.productList.setLayoutManager(layoutManager)
-    }
-}
+        currentLanguage = intent.getStringExtra(currentLang).toString()
+        spinner = findViewById(R.id.spinner)
+        val list = ArrayList<String>()
+        list.add("Select Language")
+        list.add("English")
+        list.add("Español")
+        list.add("Français")
+        list.add("Hindi")
+
+        val adapter2 = ArrayAdapter(this, R.layout.support_simple_spinner_dropdown_item, list)
+        adapter2.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item)
+        spinner.adapter = adapter2
+        spinner.onItemSelectedListener = object : AdapterView.OnItemSelectedListener {
+            override fun onItemSelected(parent: AdapterView<*>, view: View, position: Int, id: Long) {
+                when (position) {
+                    0 -> {
+                    }
+                    1 -> setLocale("en")
+                    2 -> setLocale("es")
+                    3 -> setLocale("fr")
+                    4 -> setLocale("hi")
+                }
+            }
+            override fun onNothingSelected(parent: AdapterView<*>) {}
+
+        private fun setLocale(localeName: String) {
+            if (localeName != currentLanguage) {
+                locale = Locale(localeName)
+                val res = resources
+                val dm = res.displayMetrics
+                val conf = res.configuration
+                conf.locale = locale
+                res.updateConfiguration(conf, dm)
+                val refresh = Intent(
+                    this,
+                    MainActivity::class.java
+                )
+                refresh.putExtra(currentLang, localeName)
+                startActivity(refresh)
+            } else {
+                Toast.makeText(
+                    this@ShoppingActivity, "Language, , already, , selected)!", Toast.LENGTH_SHORT).show();
+            }
+        }
+        override fun onBackPressed() {
+            val intent = Intent(Intent.ACTION_MAIN)
+            intent.addCategory(Intent.CATEGORY_HOME)
+            intent.flags = Intent.FLAG_ACTIVITY_CLEAR_TOP
+            startActivity(intent)
+            finish()
+            exitProcess(0)
+        }
+}}}
