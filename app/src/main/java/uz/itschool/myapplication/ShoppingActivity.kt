@@ -16,7 +16,6 @@ class ShoppingActivity : AppCompatActivity() {
         var binding= ActivityShoppingBinding.inflate(layoutInflater)
         super.onCreate(savedInstanceState)
         setContentView(binding.root)
-//        var name = intent.getStringExtra("name")
         var sharedPreferences = getSharedPreferences("pincode_name", Context.MODE_PRIVATE)
         var name = sharedPreferences.getString("username", "").toString()
         findViewById<TextView>(R.id.title_n).text = "Let's take care of your skin "+name
