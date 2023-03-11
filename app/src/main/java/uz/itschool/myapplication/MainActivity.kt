@@ -12,7 +12,7 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
         var handler = Handler()
         handler.postDelayed(Runnable {
-            val intent = Intent(this@MainActivity, ShoppingActivity::class.java)
+            val intent = Intent(this@MainActivity, RegistrationActivity::class.java)
             startActivity(intent)
             finish()
         }, 3000)
