@@ -35,7 +35,7 @@
             android:layout_height="wrap_content"
             android:text="“Filters are great, but "
             android:textColor="@color/black"
-            android:textSize="40dp"
+            android:textSize="42dp"
             android:textStyle="bold"
             tools:ignore="MissingConstraints" />
 
@@ -47,8 +47,7 @@
             android:layout_height="wrap_content"
             android:text="great skin is better.”"
             android:textColor="@color/black"
-            android:textSize="36dp"
-            android:textStyle="italic"
+            android:textSize="38dp"
             tools:ignore="MissingConstraints" />
     </androidx.constraintlayout.widget.ConstraintLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
