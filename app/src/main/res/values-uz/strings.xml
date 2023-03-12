@@ -1,9 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:tools="http://schemas.android.com/tools">
-    <string name="app_name">CosmiDomi</string>
+    <string name="app_name">BeautyDomi</string>
     <string name="toner" tools:ignore="ExtraTranslation">Tonik</string>
+    <string name="toner_desc" tools:ignore="ExtraTranslation">Umumiy noto`g`ri tushuncha shundaki, toner ko`zoynaklarni kichraytirish yoki mahkamlash orqali yuzingizni "ohanglaydi". Bu shunchaki to`g`ri emas. Gözeneklar ochila olmaydi, yopishi, qisqarishi yoki qattiqlasha olmaydi, chunki ularning ochilishi atrofida mushaklar yo```q, ular ochilishi va yopilishiga imkon beradi! Xo`sh, agar toner yuzingizni tonirovka qilmasa, u aniq nima qiladi? Yana bir bor bu savolga aniq javob yo`q, chunki hamma tonerlar teng yaratilmaydi. Umuman olganda, terini parvarishlash odatingizdagi serumlar, muolajalar, namlantiruvchi moddalar kabi keyingi qadamlarga tayyor bo`lishi uchun tonerdan gidrolizlash va teriga aniqlik kiritish uchun foydalaniladi.</string>
     <string name="serum" tools:ignore="ExtraTranslation">Malham</string>
+    <string name="serum_desc" tools:ignore="ExtraTranslation">Malham bilan tushuncha shundaki, katta miqdordagi faol molekulalar optimal samaradorlik uchun teri yuzasiga kirishi mumkin. Bundan tashqari, yuqori kontsentratsiya tufayli, odatda, ko`rinadigan natijalarni ko`rish uchun qisqa vaqt talab etiladi.</string>
     <string name="cream" tools:ignore="ExtraTranslation">Krem</string>
+    <string name="cream_desc" tools:ignore="ExtraTranslation">Yuz kremidan foydalanish muhim ahamiyatga ega, chunki u teringizdagi namlik va elastiklikni saqlaydi, bu esa qoqilishlar, yosh joylari va boshqa go`zal chiziqlarni kamaytirishga yordam beradi. Yuz kremlari ham teringiz uchun himoya to`sig`i vazifasini bajaradi. Noncomedogen deb nomlangan mahsulotlarni qidiring, ya`ni bu sizning gözeneklaringizni to`sib qo`ymaydi va sizni parchalanishiga olib kelmaydi.</string>
     <string name="peeling" tools:ignore="ExtraTranslation">Piling</string>
+    <string name="peeling_desc" tools:ignore="ExtraTranslation">Bir so`z bilan aytganda, yuzni maydalash muolajasi teriga quruq, zerikarli patlarni singdirish yo`li bo`lib, uni oldingidan ham nurli ko`rinishda va yumshoqroq his qilib qoldiradi. Bu quruq teri uchun zarurat va aknega moyil, yog`langan teriga ega bo`lganlar uchun ham ajoyib qo`shimcha teri parvarishi qadam.</string>
     <string name="scrub" tools:ignore="ExtraTranslation">Skrab</string>
+    <string name="scrub_desc" tools:ignore="ExtraTranslation">Yuz skrub - teringizni eksfoliatsiya qilish uchun ishlatiladigan terini parvarish qilish mahsuloti. Bu terining yuzasidan o`lik teri hujayralarini olib tashlashda yordam beradi, bu esa tiqilib qolgan gözenek va akne parchalanish ehtimolini kamaytiradi. Qadimgi davrlarga oid skrubbing va eksfoliatsiya amaliyoti bilan tarix shuni ko`rsatadiki, odamlar terisini eksfoliatsiya qilish uchun abraziv narsadan foydalangan.</string>
 </resources>

@@ -1,8 +1,13 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
-    <string name="app_name">CosmiDomi</string>
+    <string name="app_name">BeautyDomi</string>
     <string name="toner" tools:ignore="ExtraTranslation">Toner</string>
+    <string name="toner_desc" tools:ignore="ExtraTranslation">A common misconception is that a toner will “tone” your face by shrinking or tightening pores. This is simply not true. Pores cannot open, close, shrink or tighten because they don’t have muscles around their opening to allow them to open and close! So if a toner doesn’t tone your face, what exactly does it do? Once again, there is no definitive answer to this question because not all toners are created equal. Generally speaking, a toner is used to hydrate and clarify the skin so that it is prepared for the next steps in your skin care routine, such as serums, treatments, and moisturizers.</string>
     <string name="serum" tools:ignore="ExtraTranslation">Serum</string>
+    <string name="serum_desc" tools:ignore="ExtraTranslation">The concept with a serum is that larger amounts of active molecules will potentially penetrate the skin’s surface for optimum effectiveness. Also, due to the higher concentration, it typically takes a shorter amount of time to see visible results.</string>
     <string name="cream" tools:ignore="ExtraTranslation">Cream</string>
+    <string name="cream_desc" tools:ignore="ExtraTranslation">Using a face cream is important because it keeps the moisture and elasticity in your skin, which can help reduce wrinkles, age spots and other fine lines. Face creams also act as a protective barrier for your skin. Look for products that say noncomedogenic, which means that it won’t block your pores and cause you to breakout.</string>
     <string name="peeling" tools:ignore="ExtraTranslation">Peeling</string>
+    <string name="peeling_desc" tools:ignore="ExtraTranslation">In a nutshell, a face peeling treatment is a way to scrub off dry, dull patches on the skin, leaving it more luminous-looking and softer-feeling than before. It’s a must for dry skin, and a terrific supplementary skincare step for those with acne-prone, oily skin as well.</string>
     <string name="scrub" tools:ignore="ExtraTranslation">Scrub</string>
+    <string name="scrub_desc" tools:ignore="ExtraTranslation">A face scrub is a skincare product used to exfoliate your skin. It helps in the removal of dead skin cells from the surface of your skin, reducing the chances for clogged pores and acne breakouts. With the practice of scrubbing and exfoliation dating back to ancient times, history indicates that people used something abrasive to exfoliate their skin.</string>
 </resources>

@@ -19,7 +19,6 @@ class ProductAdapter(val product_list: MutableList<Product>):RecyclerView.Adapte
         var img: ImageView = itemView.findViewById<ImageView>(R.id.image)
         var extra:LinearLayout = itemView.findViewById(R.id.extra)
         var container: ConstraintLayout = itemView.findViewById(R.id.container)
-//        var price: TextView = itemView.findViewById<TextView>(R.id.price)
     }
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): MyHolder {
@@ -30,7 +29,7 @@ class ProductAdapter(val product_list: MutableList<Product>):RecyclerView.Adapte
     override fun onBindViewHolder(holder: MyHolder, position: Int) {
         var product = product_list.get(position)
         holder.container.setBackgroundColor(product.bg_color)
-        holder.product_name.text = product.product_name
+        holder.product_name.setText(product.product_name)
         holder.itemView.setOnClickListener{
             onItemClick?.invoke(product)
         }

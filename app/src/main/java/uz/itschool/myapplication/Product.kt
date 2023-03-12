@@ -3,11 +3,11 @@ package uz.itschool.myapplication
 import android.os.Parcel
 import android.os.Parcelable
 
-data class Product(var product_name:String, var price: Int?, var desc:String, var img:Int, var bg_color: Int, var discount:String?, var orientation: String):Parcelable{
+data class Product(var product_name: Int, var price: Int?, var desc: Int, var img:Int, var bg_color: Int, var discount:String?, var orientation: String):Parcelable{
     constructor(parcel: Parcel) : this(
-        parcel.readString()!!,
+        parcel.readInt(),
         parcel.readValue(Int::class.java.classLoader) as? Int,
-        parcel.readString()!!,
+        parcel.readInt(),
         parcel.readInt(),
         parcel.readInt(),
         parcel.readString(),
@@ -16,9 +16,9 @@ data class Product(var product_name:String, var price: Int?, var desc:String, va
     }
 
     override fun writeToParcel(parcel: Parcel, flags: Int) {
-        parcel.writeString(product_name)
+        parcel.writeInt(product_name)
         parcel.writeValue(price)
-        parcel.writeString(desc)
+        parcel.writeInt(desc)
         parcel.writeInt(img)
         parcel.writeInt(bg_color)
         parcel.writeString(discount)
