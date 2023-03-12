@@ -11,4 +11,15 @@
     <string name="peeling_desc" tools:ignore="ExtraTranslation">Bir so`z bilan aytganda, yuzni maydalash muolajasi teriga quruq, zerikarli patlarni singdirish yo`li bo`lib, uni oldingidan ham nurli ko`rinishda va yumshoqroq his qilib qoldiradi. Bu quruq teri uchun zarurat va aknega moyil, yog`langan teriga ega bo`lganlar uchun ham ajoyib qo`shimcha teri parvarishi qadam.</string>
     <string name="scrub" tools:ignore="ExtraTranslation">Skrab</string>
     <string name="scrub_desc" tools:ignore="ExtraTranslation">Yuz skrub - teringizni eksfoliatsiya qilish uchun ishlatiladigan terini parvarish qilish mahsuloti. Bu terining yuzasidan o`lik teri hujayralarini olib tashlashda yordam beradi, bu esa tiqilib qolgan gözenek va akne parchalanish ehtimolini kamaytiradi. Qadimgi davrlarga oid skrubbing va eksfoliatsiya amaliyoti bilan tarix shuni ko`rsatadiki, odamlar terisini eksfoliatsiya qilish uchun abraziv narsadan foydalangan.</string>
+    <string name="buy" tools:ignore="ExtraTranslation">Sotib olish</string>
+    <string name="your_name" tools:ignore="ExtraTranslation">Sizning ismingiz: </string>
+    <string name="your_surname" tools:ignore="ExtraTranslation">Sizning familiyangiz: </string>
+    <string name="your_pincode" tools:ignore="ExtraTranslation">Sizning pinkodingiz: </string>
+    <string name="your_phone" tools:ignore="ExtraTranslation">Sizning raqamingiz: </string>
+    <string name="your_purchase" tools:ignore="ExtraTranslation">Sizning tanlovingiz: </string>
+    <string name="purchase" tools:ignore="ExtraTranslation">Tanlovingiz: </string>
+    <string name="cost" tools:ignore="ExtraTranslation">Narxi: </string>
+    <string name="profile" tools:ignore="ExtraTranslation">Shaxsiy sahifa</string>
+    <string name="none" tools:ignore="ExtraTranslation">Mavjud emas</string>
+
 </resources>

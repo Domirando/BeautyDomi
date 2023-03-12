@@ -20,7 +20,7 @@ class ProductActivity : AppCompatActivity() {
             var image = findViewById<ImageView>(R.id.product_image)
             var btn = findViewById<Button>(R.id.buy)
             textView.setText(product.desc)
-            btn.text = "${btn.text} for ${product.price.toString()}$"
+            btn.text = "${btn.text} -> ${product.price.toString()}$"
             image.setImageResource(product.img)
         }
         findViewById<Button>(R.id.buy).setOnClickListener {

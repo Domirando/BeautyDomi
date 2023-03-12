@@ -10,4 +10,14 @@
     <string name="peeling_desc" tools:ignore="ExtraTranslation">In a nutshell, a face peeling treatment is a way to scrub off dry, dull patches on the skin, leaving it more luminous-looking and softer-feeling than before. It’s a must for dry skin, and a terrific supplementary skincare step for those with acne-prone, oily skin as well.</string>
     <string name="scrub" tools:ignore="ExtraTranslation">Scrub</string>
     <string name="scrub_desc" tools:ignore="ExtraTranslation">A face scrub is a skincare product used to exfoliate your skin. It helps in the removal of dead skin cells from the surface of your skin, reducing the chances for clogged pores and acne breakouts. With the practice of scrubbing and exfoliation dating back to ancient times, history indicates that people used something abrasive to exfoliate their skin.</string>
+    <string name="buy" tools:ignore="ExtraTranslation">Buy</string>
+    <string name="your_name" tools:ignore="ExtraTranslation">Your name: </string>
+    <string name="your_surname" tools:ignore="ExtraTranslation">Your surname: </string>
+    <string name="your_pincode" tools:ignore="ExtraTranslation">Your pincode: </string>
+    <string name="your_phone" tools:ignore="ExtraTranslation">Your phone: </string>
+    <string name="your_purchase" tools:ignore="ExtraTranslation">Your choice: </string>
+    <string name="purchase" tools:ignore="ExtraTranslation">Choice: </string>
+    <string name="cost" tools:ignore="ExtraTranslation">Cost: </string>
+    <string name="profile" tools:ignore="ExtraTranslation">Profile</string>
+    <string name="none" tools:ignore="ExtraTranslation">None</string>
 </resources>

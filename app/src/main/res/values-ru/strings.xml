@@ -5,10 +5,20 @@
     <string name="toner_desc" tools:ignore="ExtraTranslation">Распространенное заблуждение заключается в том, что тоник будет «тонизировать» ваше лицо, сжимая или сужая поры. Это просто неправда. Поры не могут открываться, закрываться, сжиматься или сжиматься, потому что у них нет мышц вокруг их отверстия, чтобы они могли открываться и закрываться! Итак, если тоник не тонизирует ваше лицо, что именно он делает? Опять же, нет окончательного ответа на этот вопрос, потому что не все тонеры созданы равными.Вообще говоря, тоник используется для увлажнения и осветления кожи, чтобы он был подготовлен к следующим шагам в вашей процедуре ухода за кожей, таким как сыворотки, процедуры и увлажняющие кремы.</string>
     <string name="serum" tools:ignore="ExtraTranslation">Cывороткa</string>
     <string name="serum_desc" tools:ignore="ExtraTranslation">Концепция сыворотки заключается в том, что большее количество активных молекул потенциально проникает в поверхность кожи для оптимальной эффективности. Кроме того, из-за более высокой концентрации обычно требуется меньше времени, чтобы увидеть видимые результаты.</string>
-    <string name="cream" tools:ignore="ExtraTranslation">Cream</string>
+    <string name="cream" tools:ignore="ExtraTranslation">Kрем</string>
     <string name="cream_desc" tools:ignore="ExtraTranslation">Использование крема для лица важно, потому что он сохраняет влагу и эластичность вашей кожи, что может помочь уменьшить морщины, пигментные пятна и другие тонкие линии. Кремы для лица также действуют как защитный барьер для вашей кожи. Ищите продукты, которые говорят, что некомедогенны, что означает, что он не будет блокировать ваши поры и вызывать у вас прорыв.</string>
     <string name="peeling" tools:ignore="ExtraTranslation">Пилинг</string>
     <string name="peeling_desc" tools:ignore="ExtraTranslation">В двух словах, пилинг лица - это способ очистить кожу от сухих, тусклых пятен, делая ее более сияющей и мягкой, чем раньше. Это обязательное условие для сухой кожи, а также потрясающий дополнительный шаг по уходу за кожей для людей с жирной кожей, склонной к акне.</string>
-    <string name="scrub" tools:ignore="ExtraTranslation">Scrub</string>
+    <string name="scrub" tools:ignore="ExtraTranslation">Скраб</string>
     <string name="scrub_desc" tools:ignore="ExtraTranslation">Скраб для лица - это средство по уходу за кожей, используемое для отшелушивания кожи. Это помогает в удалении мертвых клеток кожи с поверхности вашей кожи, уменьшая вероятность закупорки пор и прыщей. С практикой скрабирования и отшелушивания, восходящей к древним временам, история показывает, что люди использовали что-то абразивное для отшелушивания своей кожи.</string>
+    <string name="buy" tools:ignore="ExtraTranslation">Купить</string>
+    <string name="your_name" tools:ignore="ExtraTranslation">Ваше имя: </string>
+    <string name="your_surname" tools:ignore="ExtraTranslation">Ваша фамилия: </string>
+    <string name="your_pincode" tools:ignore="ExtraTranslation">Ваш пин-код: </string>
+    <string name="your_phone" tools:ignore="ExtraTranslation">Ваш телефон: </string>
+    <string name="your_purchase" tools:ignore="ExtraTranslation">Ваш выбор: </string>
+    <string name="purchase" tools:ignore="ExtraTranslation">Bыбор: </string>
+    <string name="cost" tools:ignore="ExtraTranslation">Cтоимость: </string>
+    <string name="profile" tools:ignore="ExtraTranslation">Профиль</string>
+    <string name="none" tools:ignore="ExtraTranslation">Нету</string>
 </resources>
